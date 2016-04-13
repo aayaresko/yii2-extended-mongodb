@@ -49,3 +49,19 @@ return [
     ],
 ];
 ```
+
+Add into your configuration file
+
+```php
+    'modules' => [
+        //....
+        gii-mongodb' => [
+            'class' => 'aayaresko\gii\Module',
+            'generators' => [
+                'mongoDbModel' => [
+                    'class' => 'yii\mongodb\gii\model\Generator'
+                ]
+            ],
+        ],
+    ],
+```
