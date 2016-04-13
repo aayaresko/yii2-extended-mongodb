@@ -10,7 +10,7 @@ namespace yii\mongodb\gii\model;
 use Yii;
 use yii\mongodb\ActiveRecord;
 use yii\mongodb\Connection;
-use yii\gii\CodeFile;
+use aayaresko\gii\CodeFile;
 use yii\helpers\Inflector;
 
 /**
@@ -19,7 +19,7 @@ use yii\helpers\Inflector;
  * @author Paul Klimov <klimov.paul@gmail.com>
  * @since 2.0
  */
-class Generator extends \yii\gii\Generator
+class Generator extends \aayaresko\gii\Generator
 {
     public $db = 'mongodb';
     public $ns = 'app\models';
