@@ -13,7 +13,7 @@ return [
             'class' => 'yii\gii\Module',
             'generators' => [
                 'mongoDbModel' => [
-                    'class' => 'yii\mongodb\gii\model\Generator'
+                    'class' => 'aayaresko\mongodb\gii\model\Generator'
                 ]
             ],
         ],

@@ -237,7 +237,7 @@ class CollectionTest extends TestCase
         $this->assertTrue(!isset($result['status']));
 
         // Test exceptions
-        $this->setExpectedException('\yii\mongodb\Exception');
+        $this->setExpectedException('\aayaresko\mongodb\Exception');
         $collection->findAndModify(['name' => 'customer 1'], ['$wrongOperator' => ['status' => 1]]);
     }
 
@@ -367,7 +367,7 @@ class CollectionTest extends TestCase
         $indexInfo = $collection->mongoCollection->getIndexInfo();
         $this->assertEquals(1, count($indexInfo));
 
-        $this->setExpectedException('\yii\mongodb\Exception');
+        $this->setExpectedException('\aayaresko\mongodb\Exception');
         $collection->dropIndex('name');
     }
 

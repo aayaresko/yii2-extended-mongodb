@@ -2,7 +2,7 @@
 
 namespace yiiunit\extensions\mongodb\data\ar;
 
-use yii\mongodb\ActiveQuery;
+use aayaresko\mongodb\ActiveQuery;
 
 /**
  * CustomerQuery

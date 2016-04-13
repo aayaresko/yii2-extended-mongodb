@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb;
+namespace aayaresko\mongodb;
 
 use yii\db\ActiveQueryInterface;
 use yii\db\ActiveQueryTrait;

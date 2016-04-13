@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb\validators;
+namespace aayaresko\mongodb\validators;
 
 use yii\base\InvalidConfigException;
 use yii\validators\Validator;
@@ -18,13 +18,13 @@ use Yii;
  * Usage example:
  *
  * ~~~
- * class Customer extends yii\mongodb\ActiveRecord
+ * class Customer extends aayaresko\mongodb\ActiveRecord
  * {
  *     ...
  *     public function rules()
  *     {
  *         return [
- *             ['_id', 'yii\mongodb\validators\MongoIdValidator']
+ *             ['_id', 'aayaresko\mongodb\validators\MongoIdValidator']
  *         ];
  *     }
  * }

@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb;
+namespace aayaresko\mongodb;
 
 /**
  * Exception represents an exception that is caused by some Mongo-related operations.

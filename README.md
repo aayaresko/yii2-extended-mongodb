@@ -43,7 +43,7 @@ return [
     //....
     'components' => [
         'mongodb' => [
-            'class' => '\yii\mongodb\Connection',
+            'class' => '\aayaresko\mongodb\Connection',
             'dsn' => 'mongodb://developer:password@localhost:27017/mydatabase',
         ],
     ],
@@ -59,7 +59,7 @@ Add into your configuration file
             'class' => 'aayaresko\gii\Module',
             'generators' => [
                 'mongoDbModel' => [
-                    'class' => 'yii\mongodb\gii\model\Generator'
+                    'class' => 'aayaresko\mongodb\gii\model\Generator'
                 ]
             ],
         ],

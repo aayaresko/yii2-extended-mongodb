@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb\validators;
+namespace aayaresko\mongodb\validators;
 
 use yii\validators\DateValidator;
 
@@ -15,13 +15,13 @@ use yii\validators\DateValidator;
  * Usage example:
  *
  * ~~~
- * class Customer extends yii\mongodb\ActiveRecord
+ * class Customer extends aayaresko\mongodb\ActiveRecord
  * {
  *     ...
  *     public function rules()
  *     {
  *         return [
- *             ['date', 'yii\mongodb\validators\MongoDateValidator', 'format' => 'MM/dd/yyyy']
+ *             ['date', 'aayaresko\mongodb\validators\MongoDateValidator', 'format' => 'MM/dd/yyyy']
  *         ];
  *     }
  * }

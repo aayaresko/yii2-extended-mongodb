@@ -3,7 +3,7 @@
 namespace yiiunit\extensions\mongodb;
 
 use yii\data\ActiveDataProvider;
-use yii\mongodb\Query;
+use aayaresko\mongodb\Query;
 use yiiunit\extensions\mongodb\data\ar\ActiveRecord;
 use yiiunit\extensions\mongodb\data\ar\Customer;
 

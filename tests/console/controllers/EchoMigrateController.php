@@ -1,7 +1,7 @@
 <?php
 namespace yiiunit\extensions\mongodb\console\controllers;
 
-use yii\mongodb\console\controllers\MigrateController;
+use aayaresko\mongodb\console\controllers\MigrateController;
 
 /**
  * MigrateController that writes output via echo instead of using output stream. Allows us to buffer it.

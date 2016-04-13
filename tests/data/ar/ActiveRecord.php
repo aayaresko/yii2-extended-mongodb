@@ -5,7 +5,7 @@ namespace yiiunit\extensions\mongodb\data\ar;
 /**
  * Test Mongo ActiveRecord
  */
-class ActiveRecord extends \yii\mongodb\ActiveRecord
+class ActiveRecord extends \aayaresko\mongodb\ActiveRecord
 {
     public static $db;
 

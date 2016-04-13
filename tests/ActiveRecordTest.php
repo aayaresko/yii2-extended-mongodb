@@ -2,7 +2,7 @@
 
 namespace yiiunit\extensions\mongodb;
 
-use yii\mongodb\ActiveQuery;
+use aayaresko\mongodb\ActiveQuery;
 use yiiunit\extensions\mongodb\data\ar\ActiveRecord;
 use yiiunit\extensions\mongodb\data\ar\Customer;
 use yiiunit\extensions\mongodb\data\ar\Animal;

@@ -5,9 +5,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb\file;
+namespace aayaresko\mongodb\file;
 
-use yii\mongodb\Exception;
+use aayaresko\mongodb\Exception;
 use Yii;
 
 /**
@@ -17,12 +17,12 @@ use Yii;
  *
  * File collection inherits all interface from regular [[\yii\mongo\Collection]], adding methods to store files.
  *
- * @property \yii\mongodb\Collection $chunkCollection Mongo collection instance. This property is read-only.
+ * @property \aayaresko\mongodb\Collection $chunkCollection Mongo collection instance. This property is read-only.
  *
  * @author Paul Klimov <klimov.paul@gmail.com>
  * @since 2.0
  */
-class Collection extends \yii\mongodb\Collection
+class Collection extends \aayaresko\mongodb\Collection
 {
     /**
      * @var \MongoGridFS Mongo GridFS collection instance.
@@ -30,7 +30,7 @@ class Collection extends \yii\mongodb\Collection
     public $mongoCollection;
 
     /**
-     * @var \yii\mongodb\Collection file chunks Mongo collection.
+     * @var \aayaresko\mongodb\Collection file chunks Mongo collection.
      */
     private $_chunkCollection;
 
@@ -38,13 +38,13 @@ class Collection extends \yii\mongodb\Collection
     /**
      * Returns the Mongo collection for the file chunks.
      * @param boolean $refresh whether to reload the collection instance even if it is found in the cache.
-     * @return \yii\mongodb\Collection mongo collection instance.
+     * @return \aayaresko\mongodb\Collection mongo collection instance.
      */
     public function getChunkCollection($refresh = false)
     {
         if ($refresh || !is_object($this->_chunkCollection)) {
             $this->_chunkCollection = Yii::createObject([
-                'class' => 'yii\mongodb\Collection',
+                'class' => 'aayaresko\mongodb\Collection',
                 'mongoCollection' => $this->mongoCollection->chunks
             ]);
         }

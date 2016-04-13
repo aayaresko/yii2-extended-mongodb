@@ -3,7 +3,7 @@
 namespace yiiunit\extensions\mongodb\validators;
 
 use yii\base\Model;
-use yii\mongodb\validators\MongoIdValidator;
+use aayaresko\mongodb\validators\MongoIdValidator;
 use yiiunit\extensions\mongodb\TestCase;
 
 class MongoIdValidatorTest extends TestCase

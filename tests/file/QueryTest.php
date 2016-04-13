@@ -2,7 +2,7 @@
 
 namespace yiiunit\extensions\mongodb\file;
 
-use yii\mongodb\file\Query;
+use aayaresko\mongodb\file\Query;
 use yiiunit\extensions\mongodb\TestCase;
 
 /**

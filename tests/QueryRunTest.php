@@ -2,7 +2,7 @@
 
 namespace yiiunit\extensions\mongodb;
 
-use yii\mongodb\Query;
+use aayaresko\mongodb\Query;
 
 /**
  * @group mongodb

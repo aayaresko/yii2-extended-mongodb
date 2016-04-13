@@ -4,14 +4,14 @@ namespace yiiunit\extensions\mongodb\console\controllers;
 
 use yii\console\controllers\BaseMigrateController;
 use yii\helpers\FileHelper;
-use yii\mongodb\Exception;
-use yii\mongodb\Migration;
-use yii\mongodb\Query;
+use aayaresko\mongodb\Exception;
+use aayaresko\mongodb\Migration;
+use aayaresko\mongodb\Query;
 use Yii;
 use yiiunit\extensions\mongodb\TestCase;
 
 /**
- * Unit test for [[\yii\mongodb\console\controllers\MigrateController]].
+ * Unit test for [[\aayaresko\mongodb\console\controllers\MigrateController]].
  * @see MigrateController
  *
  * @group mongodb

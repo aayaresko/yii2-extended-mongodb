@@ -2,17 +2,17 @@
 ================
 
 接続のインスタンスを使用して、データベースとコレクションにアクセスすることが出来ます。
-ほとんどの MongoDB コマンドに [[\yii\mongodb\Collection]] によってアクセスすることが出来ます。
+ほとんどの MongoDB コマンドに [[\aayaresko\mongodb\Collection]] によってアクセスすることが出来ます。
 
 ```php
 $collection = Yii::$app->mongodb->getCollection('customer');
 $collection->insert(['name' => 'John Smith', 'status' => 1]);
 ```
 
-"find" クエリを実行するためには、[[\yii\mongodb\Query]] を使わなければなりません。
+"find" クエリを実行するためには、[[\aayaresko\mongodb\Query]] を使わなければなりません。
 
 ```php
-use yii\mongodb\Query;
+use aayaresko\mongodb\Query;
 
 $query = new Query;
 // クエリを構築する

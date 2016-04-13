@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb\debug;
+namespace aayaresko\mongodb\debug;
 
 use yii\debug\panels\DbPanel;
 use yii\log\Logger;
@@ -43,9 +43,9 @@ class MongoDbPanel extends DbPanel
         $target = $this->module->logTarget;
 
         return $target->filterMessages($target->messages, Logger::LEVEL_PROFILE, [
-            'yii\mongodb\Collection::*',
-            'yii\mongodb\Query::*',
-            'yii\mongodb\Database::*',
+            'aayaresko\mongodb\Collection::*',
+            'aayaresko\mongodb\Query::*',
+            'aayaresko\mongodb\Database::*',
         ]);
     }
 } 

@@ -2,7 +2,7 @@
 
 namespace yiiunit\extensions\mongodb;
 
-use yii\mongodb\Session;
+use aayaresko\mongodb\Session;
 use Yii;
 
 class SessionTest extends TestCase

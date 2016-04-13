@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb;
+namespace aayaresko\mongodb;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -24,7 +24,7 @@ use yii\di\Instance;
  *
  * ~~~
  * 'cache' => [
- *     'class' => 'yii\mongodb\Cache',
+ *     'class' => 'aayaresko\mongodb\Cache',
  *     // 'db' => 'mymongodb',
  *     // 'cacheCollection' => 'my_cache',
  * ]

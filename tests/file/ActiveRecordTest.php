@@ -5,7 +5,7 @@ namespace yiiunit\extensions\mongodb\file;
 use Yii;
 use yii\helpers\FileHelper;
 use yiiunit\extensions\mongodb\TestCase;
-use yii\mongodb\file\ActiveQuery;
+use aayaresko\mongodb\file\ActiveQuery;
 use yiiunit\extensions\mongodb\data\ar\file\ActiveRecord;
 use yiiunit\extensions\mongodb\data\ar\file\CustomerFile;
 

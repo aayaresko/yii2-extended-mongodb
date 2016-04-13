@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb;
+namespace aayaresko\mongodb;
 
 use yii\base\InvalidParamException;
 use yii\base\Object;

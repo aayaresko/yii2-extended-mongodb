@@ -34,7 +34,7 @@ representation:
 
 ```php
 use yii\web\Controller;
-use yii\mongodb\Query;
+use aayaresko\mongodb\Query;
 
 class ItemController extends Controller
 {

@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb;
+namespace aayaresko\mongodb;
 
 use yii\base\Object;
 use Yii;
@@ -83,7 +83,7 @@ class Database extends Object
     protected function selectCollection($name)
     {
         return Yii::createObject([
-            'class' => 'yii\mongodb\Collection',
+            'class' => 'aayaresko\mongodb\Collection',
             'mongoCollection' => $this->mongoDb->selectCollection($name)
         ]);
     }
@@ -96,7 +96,7 @@ class Database extends Object
     protected function selectFileCollection($prefix)
     {
         return Yii::createObject([
-            'class' => 'yii\mongodb\file\Collection',
+            'class' => 'aayaresko\mongodb\file\Collection',
             'mongoCollection' => $this->mongoDb->getGridFS($prefix)
         ]);
     }

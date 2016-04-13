@@ -3,7 +3,7 @@
 namespace yiiunit\extensions\mongodb;
 
 use Yii;
-use yii\mongodb\Cache;
+use aayaresko\mongodb\Cache;
 
 class CacheTest extends TestCase
 {

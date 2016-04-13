@@ -2,8 +2,8 @@
 
 namespace yiiunit\extensions\mongodb;
 
-use yii\mongodb\Collection;
-use yii\mongodb\file\Collection as FileCollection;
+use aayaresko\mongodb\Collection;
+use aayaresko\mongodb\file\Collection as FileCollection;
 
 /**
  * @group mongodb

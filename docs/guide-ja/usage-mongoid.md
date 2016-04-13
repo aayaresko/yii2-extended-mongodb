@@ -32,7 +32,7 @@ MongoDB に保存されるユーザ・アイデンティティを実装する場
 
 ```php
 use yii\web\Controller;
-use yii\mongodb\Query;
+use aayaresko\mongodb\Query;
 
 class ItemController extends Controller
 {

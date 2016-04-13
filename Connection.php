@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb;
+namespace aayaresko\mongodb;
 
 use yii\base\Component;
 use yii\base\InvalidConfigException;
@@ -23,7 +23,7 @@ use Yii;
  * the DB connection:
  *
  * ~~~
- * $connection = new \yii\mongodb\Connection([
+ * $connection = new \aayaresko\mongodb\Connection([
  *     'dsn' => $dsn,
  * ]);
  * $connection->open();
@@ -56,7 +56,7 @@ use Yii;
  * [
  *      'components' => [
  *          'mongodb' => [
- *              'class' => '\yii\mongodb\Connection',
+ *              'class' => '\aayaresko\mongodb\Connection',
  *              'dsn' => 'mongodb://developer:password@localhost:27017/mydatabase',
  *          ],
  *      ],
@@ -174,7 +174,7 @@ class Connection extends Component
         $this->open();
 
         return Yii::createObject([
-            'class' => 'yii\mongodb\Database',
+            'class' => 'aayaresko\mongodb\Database',
             'mongoDb' => $this->mongoClient->selectDB($name)
         ]);
     }

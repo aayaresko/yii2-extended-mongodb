@@ -5,14 +5,14 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb\file;
+namespace aayaresko\mongodb\file;
 
 use Yii;
 
 /**
  * Query represents Mongo "find" operation for GridFS collection.
  *
- * Query behaves exactly as regular [[\yii\mongodb\Query]].
+ * Query behaves exactly as regular [[\aayaresko\mongodb\Query]].
  * Found files will be represented as arrays of file document attributes with
  * additional 'file' key, which stores [[\MongoGridFSFile]] instance.
  *
@@ -21,7 +21,7 @@ use Yii;
  * @author Paul Klimov <klimov.paul@gmail.com>
  * @since 2.0
  */
-class Query extends \yii\mongodb\Query
+class Query extends \aayaresko\mongodb\Query
 {
     /**
      * @inheritdoc
@@ -39,7 +39,7 @@ class Query extends \yii\mongodb\Query
 
     /**
      * Returns the Mongo collection for this query.
-     * @param \yii\mongodb\Connection $db Mongo connection.
+     * @param \aayaresko\mongodb\Connection $db Mongo connection.
      * @return Collection collection instance.
      */
     public function getCollection($db = null)

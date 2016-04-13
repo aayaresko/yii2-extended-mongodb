@@ -30,7 +30,7 @@ return [
     //....
     'components' => [
         'mongodb' => [
-            'class' => '\yii\mongodb\Connection',
+            'class' => '\aayaresko\mongodb\Connection',
             'dsn' => 'mongodb://developer:password@localhost:27017/mydatabase',
         ],
     ],

@@ -2,7 +2,7 @@
 
 namespace yiiunit\extensions\mongodb;
 
-use yii\mongodb\ActiveFixture;
+use aayaresko\mongodb\ActiveFixture;
 use yiiunit\extensions\mongodb\data\ar\Customer;
 
 class ActiveFixtureTest extends TestCase

@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb;
+namespace aayaresko\mongodb;
 
 use Yii;
 use yii\base\ErrorHandler;
@@ -25,7 +25,7 @@ use yii\web\MultiFieldSession;
  *
  * ~~~
  * 'session' => [
- *     'class' => 'yii\mongodb\Session',
+ *     'class' => 'aayaresko\mongodb\Session',
  *     // 'db' => 'mymongodb',
  *     // 'sessionCollection' => 'my_session',
  * ]

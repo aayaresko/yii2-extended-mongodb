@@ -21,7 +21,7 @@ class CollectionTest extends TestCase
     {
         $collection = $this->getConnection()->getFileCollection();
         $chunkCollection = $collection->getChunkCollection();
-        $this->assertTrue($chunkCollection instanceof \yii\mongodb\Collection);
+        $this->assertTrue($chunkCollection instanceof \aayaresko\mongodb\Collection);
         $this->assertTrue($chunkCollection->mongoCollection instanceof \MongoCollection);
     }
 

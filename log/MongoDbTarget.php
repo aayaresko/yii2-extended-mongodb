@@ -5,13 +5,13 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb\log;
+namespace aayaresko\mongodb\log;
 
 use yii\base\InvalidConfigException;
 use yii\di\Instance;
 use yii\helpers\VarDumper;
 use yii\log\Target;
-use yii\mongodb\Connection;
+use aayaresko\mongodb\Connection;
 
 /**
  * MongoDbTarget stores log messages in a MongoDB collection.

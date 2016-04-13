@@ -2,7 +2,7 @@
 
 namespace yiiunit\extensions\mongodb\data\ar\file;
 
-use yii\mongodb\file\ActiveQuery;
+use aayaresko\mongodb\file\ActiveQuery;
 
 /**
  * CustomerFileQuery

@@ -2,10 +2,10 @@
 
 namespace yiiunit\extensions\mongodb;
 
-use yii\mongodb\Collection;
-use yii\mongodb\file\Collection as FileCollection;
-use yii\mongodb\Connection;
-use yii\mongodb\Database;
+use aayaresko\mongodb\Collection;
+use aayaresko\mongodb\file\Collection as FileCollection;
+use aayaresko\mongodb\Connection;
+use aayaresko\mongodb\Database;
 
 /**
  * @group mongodb
@@ -41,7 +41,7 @@ class ConnectionTest extends TestCase
 
         $connection = new Connection;
         $connection->dsn = 'unknown::memory:';
-        $this->setExpectedException('yii\mongodb\Exception');
+        $this->setExpectedException('aayaresko\mongodb\Exception');
         $connection->open();
     }
 

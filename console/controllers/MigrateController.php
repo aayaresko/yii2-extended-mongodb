@@ -5,13 +5,13 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb\console\controllers;
+namespace aayaresko\mongodb\console\controllers;
 
 use Yii;
 use yii\console\controllers\BaseMigrateController;
 use yii\console\Exception;
-use yii\mongodb\Connection;
-use yii\mongodb\Query;
+use aayaresko\mongodb\Connection;
+use aayaresko\mongodb\Query;
 use yii\helpers\ArrayHelper;
 
 /**
@@ -32,7 +32,7 @@ use yii\helpers\ArrayHelper;
  * return [
  *     // ...
  *     'controllerMap' => [
- *         'mongodb-migrate' => 'yii\mongodb\console\controllers\MigrateController'
+ *         'mongodb-migrate' => 'aayaresko\mongodb\console\controllers\MigrateController'
  *     ],
  * ];
  * ~~~
@@ -108,7 +108,7 @@ class MigrateController extends BaseMigrateController
     /**
      * Creates a new migration instance.
      * @param string $class the migration class name
-     * @return \yii\mongodb\Migration the migration instance
+     * @return \aayaresko\mongodb\Migration the migration instance
      */
     protected function createMigration($class)
     {

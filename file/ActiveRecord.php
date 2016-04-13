@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\mongodb\file;
+namespace aayaresko\mongodb\file;
 
 use Yii;
 use yii\base\InvalidParamException;
@@ -43,7 +43,7 @@ use yii\web\UploadedFile;
  * @author Paul Klimov <klimov.paul@gmail.com>
  * @since 2.0
  */
-abstract class ActiveRecord extends \yii\mongodb\ActiveRecord
+abstract class ActiveRecord extends \aayaresko\mongodb\ActiveRecord
 {
     /**
      * @inheritdoc
