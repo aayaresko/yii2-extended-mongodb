@@ -55,13 +55,23 @@ Add into your configuration file
 ```php
     'modules' => [
         //....
-        gii-mongodb' => [
+        'gii-mongodb' => [
             'class' => 'aayaresko\gii\Module',
             'generators' => [
                 'mongoDbModel' => [
                     'class' => 'aayaresko\mongodb\gii\model\Generator'
                 ]
             ],
+        ],
+    ],
+```
+
+```php 
+    'components' => [
+        //....
+        'mongodb' => [
+            'class' => '\aayaresko\mongodb\Connection',
+            'dsn' => 'mongodb://realt:123456@localhost:27017/realt',
         ],
     ],
 ```
