@@ -71,7 +71,7 @@ Add into your configuration file
         //....
         'mongodb' => [
             'class' => '\aayaresko\mongodb\Connection',
-            'dsn' => 'mongodb://realt:123456@localhost:27017/realt',
+            'dsn' => 'mongodb://dbuser:dbpass@localhost:27017/dbname',
         ],
     ],
 ```
